@@ -1,6 +1,6 @@
 # LandStudent
 A Web Application to Support Students Searching for Housing
-https://cdn.discordapp.com/attachments/1336767852815847510/1487012095127064736/image.png?ex=69c7976e&is=69c645ee&hm=1efe513c7dc17182894f2b8eab7ffcbce38f463c4dd105074f7298bd3045c8d1&
-https://cdn.discordapp.com/attachments/1336767852815847510/1487009846086598667/image.png?ex=69c79556&is=69c643d6&hm=332d94e4875c69293bca6830d1133c82dfec6a6318701a36c918c2405eaa2125&
-https://cdn.discordapp.com/attachments/1336767852815847510/1487007817952137326/image.png?ex=69c79373&is=69c641f3&hm=60e58572932f7d6962870de29c74bd2197cd4639df4086bb428257878e62a303&
-https://cdn.discordapp.com/attachments/1336767852815847510/1487013205334163486/image.png?ex=69c79877&is=69c646f7&hm=9c2d98db3cee702b5ff3ff22c96ba2a240906ba6974c45770305625769f35bd6&
+<img width="1896" height="868" alt="image" src="https://github.com/user-attachments/assets/73712d72-6fcf-413b-b23c-1d185b974a22" />
+<img width="1917" height="871" alt="image" src="https://github.com/user-attachments/assets/ac8d87e0-5848-47c5-889e-a27b4194bda9" />
+<img width="1891" height="873" alt="image" src="https://github.com/user-attachments/assets/cb2de022-f78c-47d0-81a6-fbd010b53c57" />
+<img width="1916" height="857" alt="image" src="https://github.com/user-attachments/assets/1c201f6b-e0b0-499c-9896-fa6cf94d477c" />
