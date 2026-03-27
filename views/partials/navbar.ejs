@@ -1,0 +1,23 @@
+<nav class="navbar">
+  <div>
+    <a href="/" class="brand">LandStudent</a>
+    <a href="/">Home</a>
+    <a href="/listings">Listings</a>
+    <% if (currentUser) { %>
+      <a href="/dashboard">Dashboard</a>
+      <a href="/listings/new">Add Listing</a>
+    <% } %>
+  </div>
+
+  <div class="nav-right">
+    <% if (currentUser) { %>
+      <span><%= currentUser.name %></span>
+      <form action="/logout" method="POST" style="display:inline;">
+        <button type="submit" class="logout-btn">Logout</button>
+      </form>
+    <% } else { %>
+      <a href="/login">Login</a>
+      <a href="/register">Register</a>
+    <% } %>
+  </div>
+</nav>

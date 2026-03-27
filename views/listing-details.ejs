@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Listing Details</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <%- include('partials/navbar') %>
+
+  <section class="section">
+    <div class="card">
+      <h2><%= listing.title %></h2>
+      <p><strong>Location:</strong> <%= listing.location %></p>
+      <p><strong>Price:</strong> €<%= listing.price %></p>
+      <p><strong>Type:</strong> <%= listing.type %></p>
+      <p><strong>Description:</strong> <%= listing.description %></p>
+
+      <% if (listing.image) { %>
+        <img src="<%= listing.image %>" alt="Listing Image" class="listing-img">
+      <% } %>
+
+      <div style="margin-top: 20px; display: flex; gap: 12px;">
+  <a href="/listings" class="hero-btn">Back</a>
+
+  <button class="hero-btn" onclick="alert('Rental request sent! (Demo feature)')">
+    Rent Now
+  </button>
+
+  <a href="mailto:owner@landstudent.com?subject=Interest in <%= listing.title %>" class="contact-btn">
+    Contact
+  </a>
+    </div>
+    </div>
+  </section>
+</body>
+</html>

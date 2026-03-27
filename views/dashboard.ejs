@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <%- include('partials/navbar') %>
+
+  <section class="section">
+    <h2>Your Dashboard</h2>
+
+    <% if (myListings.length === 0) { %>
+      <p>No listings yet.</p>
+    <% } %>
+
+    <% myListings.forEach(l => { %>
+      <div class="card">
+        <h3><%= l.title %></h3>
+        <p><strong>Location:</strong> <%= l.location %></p>
+        <p><strong>Price:</strong> €<%= l.price %></p>
+
+        <form action="/listings/<%= l._id %>/delete" method="POST" style="margin-top: 15px;">
+          <button type="submit" class="logout-btn">Delete</button>
+        </form>
+      </div>
+    <% }) %>
+  </section>
+</body>
+</html>
